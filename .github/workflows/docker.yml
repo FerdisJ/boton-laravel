@@ -23,5 +23,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
+          file: docker/php/Dockerfile
           push: true
           tags: ferdisk2/boton-laravel:latest
